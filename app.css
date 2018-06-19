@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: top;
+}
+
+.left-section, .right-section {
+  display: inline-block;
+  width: 50%;
+  padding: 10px;
+}
+
+.right-section {
+  height: 42vh;
+}
+
+.header-content {
+  background-color: #dcdcdc;
+  padding: 10px 5px;
+}
+
+.footer-content {
+  background-color: #dedede;
+  padding: 10px 5px;
+}
+
+.content {
+  background-color: #FF4040;
+  padding: 25px 10px;
+}
+
+.header-content p, .footer-content p {
+  margin: 0;
+}
+
+.content p {
+  font-size: 16px;
+}
